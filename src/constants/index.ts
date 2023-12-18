@@ -29,3 +29,11 @@ export const navbar: {
         },
     ],
 };
+
+export const heroButton: {
+    text: string;
+    linkTo: string;
+} = {
+    text: "See the benefits",
+    linkTo: "#",
+};

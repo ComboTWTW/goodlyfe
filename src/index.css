@@ -14,3 +14,22 @@
 .poppins {
   font-family: 'Poppins', sans-serif;
 }
+
+
+@media (min-width: 768px) {
+  .heroButton:hover {
+    transform: scale(1.04);
+    transition-duration: 300ms;
+  }
+}
+
+@media (min-width: 768px) {
+  .heroButton {
+    transition-property: transform;
+    transition-duration: 300ms;
+  }
+
+  .heroButton:hover {
+    transform: scale(1.04);
+  }
+}
