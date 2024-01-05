@@ -9,7 +9,7 @@ const Navbar = () => {
 
     return (
         <div className="relative z-10 bg-mainPink w-full h-[80px] md:h-[101px] flex items-center justify-center">
-            <div className="max-w-[1920px] z-20 h-full bg-mainPink flex w-full justify-between items-center px-4 md:px-6 lg:px-10">
+            <div className=" max-w-[1536px] z-20 h-full bg-mainPink flex w-full justify-between items-center px-4 md:px-6 lg:px-10">
                 {/* Navbar logo */}
                 <Fade direction="up" triggerOnce={true}>
                     <NavLink to={navbar.logo.linkTo} reloadDocument={true}>
@@ -31,7 +31,7 @@ const Navbar = () => {
                                 <NavLink to={link.linkTo} reloadDocument={true}>
                                     <li
                                         key={link.linkTo}
-                                        className="poppins text-white md:hover:text-black md:hover:duration-200"
+                                        className="poppins text-white md:hover:text-black md:duration-200"
                                     >
                                         {link.text}
                                     </li>

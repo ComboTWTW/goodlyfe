@@ -37,3 +37,25 @@ export const heroButton: {
     text: "See the benefits",
     linkTo: "#",
 };
+
+export const subHeroButton: {
+    text: string;
+    linkTo: string;
+} = {
+    text: "View the FAQ",
+    linkTo: "#",
+};
+
+export const subHero: {
+    headerText: string;
+    mainText: string;
+    button: { buttonText: string; buttonLinkTo: string };
+} = {
+    headerText: "Meet your new body",
+    mainText:
+        "Embark on a transformative journey to discover newfound strength, redefine your limits, and sculpt a healthier, stronger you. Embrace change, unlock your potential.",
+    button: {
+        buttonText: "View the FAQ",
+        buttonLinkTo: "#",
+    },
+};

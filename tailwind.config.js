@@ -9,6 +9,7 @@ export default {
       colors: {
         mainPink: "#E43071",
         lightPink: "#FFC1D8",
+        textGray: "#424242"
       }
     },
     screens: {
