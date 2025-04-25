@@ -1,3 +1,4 @@
+import Become from "../components/Become";
 import Hero from "../components/Hero";
 import SubHero from "../components/SubHero";
 
@@ -6,6 +7,7 @@ const Home = () => {
         <div className="w-full flex flex-col items-center">
             <Hero />
             <SubHero />
+            <Become />
         </div>
     );
 };

@@ -59,3 +59,19 @@ export const subHero: {
         buttonLinkTo: "#",
     },
 };
+
+export const BecomeText: {
+    headerText: string;
+    mainText: string[];
+    button: { buttonText: string; buttonLinkTo: string };
+} = {
+    headerText: "Become more than you are.",
+    mainText: [
+        `Staying active is great fun and keeps you healthy.`,
+        `Check out how you can join in.`,
+    ],
+    button: {
+        buttonText: "Let's do it!",
+        buttonLinkTo: "#",
+    },
+};

@@ -9,7 +9,7 @@ const Hero = () => {
             className={`relative bg-cover bg-[center_bottom_85%] w-full bg-[url('./assets/hero-bg.jpg')]`}
         >
             {/* Makes bg darker */}
-            <div className=" w-full h-full bg-gray-900 bg-opacity-20">
+            <div className=" w-full h-full bg-gray-900 bg-opacity-30">
                 {/* Content */}
                 <div className=" w-full px-4 flex flex-col items-center">
                     {/* Header */}
@@ -41,7 +41,7 @@ const Hero = () => {
                 options={{
                     height: 120,
                     amplitude: 20,
-                    speed: 0.2,
+                    speed: 0.22,
                     points: 2,
                 }}
             />
