@@ -75,3 +75,17 @@ export const BecomeText: {
         buttonLinkTo: "#",
     },
 };
+
+export const facilitiesText: {
+    headerText: string;
+    mainText: string;
+    button: { buttonText: string; buttonLinkTo: string };
+} = {
+    headerText: "Premium Facilities",
+    mainText:
+        "Train in a space designed for champions. Our premium facilities include top-tier equipment, spotless locker rooms, expert staff, and a motivating atmosphere to elevate your performance every single day.",
+    button: {
+        buttonText: "View the FAQ",
+        buttonLinkTo: "#",
+    },
+};
