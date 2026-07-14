@@ -1,3 +1,5 @@
+import { person1, person2, person3 } from "../assets";
+
 export const navbar: {
     logo: { text: string; linkTo: string };
     navbarLinks: { text: string; linkTo: string }[];
@@ -88,4 +90,41 @@ export const facilitiesText: {
         buttonText: "View the FAQ",
         buttonLinkTo: "#",
     },
+};
+
+export const realStoriesText: {
+    headerText: string;
+    subHeaderText: string;
+    cards: {
+        cardHeader: string;
+        cardText: string;
+        cardPersonName: string;
+        cardPesronImage: string;
+    }[];
+} = {
+    headerText: "Real Stories from Real Customers",
+    subHeaderText: "Be inspired with these experiences.",
+    cards: [
+        {
+            cardHeader: "43Kg lost!",
+            cardText:
+                "I never imagined losing 43 kg was possible until I joined this gym. The trainers believed in me from day one, every workout had a clear purpose, and the support kept me motivated.",
+            cardPersonName: "James John",
+            cardPesronImage: person1,
+        },
+        {
+            cardHeader: "17Kg lost!",
+            cardText:
+                "Losing 17 kg has been an incredible journey. Every coach encouraged me to stay consistent, the workouts were challenging yet enjoyable. I couldn't be happier with my progress.",
+            cardPersonName: "Mary Patricia",
+            cardPesronImage: person2,
+        },
+        {
+            cardHeader: "3Kg lost!",
+            cardText:
+                "The welcoming atmosphere, great coaching, and enjoyable workouts made staying active easier than ever.",
+            cardPersonName: "Robert Micheal",
+            cardPesronImage: person3,
+        },
+    ],
 };

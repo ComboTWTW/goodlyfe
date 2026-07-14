@@ -1,6 +1,7 @@
 import Become from "../components/Become";
 import Hero from "../components/Hero";
 import PremiumFacilities from "../components/PremiumFacilities";
+import RealStories from "../components/RealStories";
 import SubHero from "../components/SubHero";
 
 const Home = () => {
@@ -10,6 +11,7 @@ const Home = () => {
             <SubHero />
             <Become />
             <PremiumFacilities />
+            <RealStories />
         </div>
     );
 };

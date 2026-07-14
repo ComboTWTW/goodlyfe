@@ -5,7 +5,7 @@ import { Fade } from "react-awesome-reveal";
 
 const PremiumFacilities = () => {
     return (
-        <div className="w-full flex flex-col items-center mt-10 md:mt-24 ">
+        <div className="w-full flex flex-col items-center mt-10 md:mt-56 md:mb-28 ">
             <div className="max-w-[1200px]  w-full flex flex-col-reverse md:flex-row md:justify-between items-center md:items-start  px-4 md:gap-20 lg:gap-40">
                 {/* Block with text */}
                 <Fade direction={"left"} triggerOnce={true}>
