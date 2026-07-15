@@ -3,6 +3,7 @@ import Hero from "../components/Hero";
 import OurApp from "../components/OurApp";
 import PremiumFacilities from "../components/PremiumFacilities";
 import RealStories from "../components/RealStories";
+import Social from "../components/Social";
 import SubHero from "../components/SubHero";
 
 const Home = () => {
@@ -14,6 +15,7 @@ const Home = () => {
             <PremiumFacilities />
             <RealStories />
             <OurApp />
+            <Social />
         </div>
     );
 };

@@ -8,6 +8,9 @@ import quotMark from "./quotMark.svg";
 import googleButton from "./GooglePlayBadge.png";
 import appStoreButton from "./AppStoreBadge.png";
 import ourAppImage from "./ourAppImage.png";
+import facebookSocial from "./facebookSocial.svg";
+import youTubeSocial from "./youTubeSocial.svg";
+import instagramSocial from "./instagramSocial.svg";
 
 export {
     heroBg,
@@ -20,4 +23,7 @@ export {
     googleButton,
     appStoreButton,
     ourAppImage,
+    facebookSocial,
+    youTubeSocial,
+    instagramSocial,
 };

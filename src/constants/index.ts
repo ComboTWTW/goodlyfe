@@ -4,6 +4,9 @@ import {
     person1,
     person2,
     person3,
+    facebookSocial,
+    youTubeSocial,
+    instagramSocial,
 } from "../assets";
 
 export const navbar: {
@@ -153,4 +156,16 @@ export const ourAppText: {
             { linkTo: "#", imgSrc: appStoreButton },
         ],
     },
+};
+
+export const socialText: {
+    socialHeader: string;
+    socialLinks: { linkTo: string; imgSrc: string }[];
+} = {
+    socialHeader: "Social",
+    socialLinks: [
+        { linkTo: "#", imgSrc: facebookSocial },
+        { linkTo: "#", imgSrc: youTubeSocial },
+        { linkTo: "#", imgSrc: instagramSocial },
+    ],
 };
