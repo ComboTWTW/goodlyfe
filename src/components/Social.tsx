@@ -10,7 +10,7 @@ const Social = () => {
                 </h3>
 
                 <div className="relative mt-10 w-full md:w-fit">
-                    <ul className="relative flex justify-evenly w-full md:w-fit md:gap-24">
+                    <ul className="relative flex justify-between w-full md:w-fit md:gap-24">
                         {socialText.socialLinks.map((link) => (
                             <li key={link.linkTo}>
                                 <NavLink

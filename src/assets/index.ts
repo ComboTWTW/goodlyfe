@@ -11,6 +11,9 @@ import ourAppImage from "./ourAppImage.png";
 import facebookSocial from "./facebookSocial.svg";
 import youTubeSocial from "./youTubeSocial.svg";
 import instagramSocial from "./instagramSocial.svg";
+import messageIcon from "./Message.svg";
+import callingIcon from "./Calling.svg";
+import locationIcon from "./Location.svg";
 
 export {
     heroBg,
@@ -26,4 +29,7 @@ export {
     facebookSocial,
     youTubeSocial,
     instagramSocial,
+    messageIcon,
+    callingIcon,
+    locationIcon,
 };

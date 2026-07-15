@@ -7,6 +7,9 @@ import {
     facebookSocial,
     youTubeSocial,
     instagramSocial,
+    callingIcon,
+    messageIcon,
+    locationIcon,
 } from "../assets";
 
 export const navbar: {
@@ -168,4 +171,53 @@ export const socialText: {
         { linkTo: "#", imgSrc: youTubeSocial },
         { linkTo: "#", imgSrc: instagramSocial },
     ],
+};
+
+export const footerText: {
+    footerDesc: { text: string; copyright: string };
+    quckLinks: {
+        linkHeader: string;
+        links: { text: string; linkTo: string }[];
+    };
+    guides: { guidHeader: string; guides: { text: string; linkTo: string }[] };
+    reachUs: {
+        reachHeader: string;
+        socials: { imgSrc: string; text: string }[];
+    };
+} = {
+    footerDesc: {
+        text: "Lorem ipsum dolor amet, consectetur adipiscing elit. Eget nisl nunc quam ac sed turpis volutpat. Cursus sed massa non nisi, placerat.",
+        copyright: "© 2026 GoodLyfe. All rights reserved",
+    },
+    quckLinks: {
+        linkHeader: "Quick Links",
+        links: [
+            { linkTo: "#", text: "Classes" },
+            { linkTo: "#", text: "Timetable" },
+            { linkTo: "#", text: "Clubs" },
+            { linkTo: "#", text: "Nutrition" },
+            { linkTo: "#", text: "Free Trial" },
+        ],
+    },
+    guides: {
+        guidHeader: "Guides",
+        guides: [
+            { linkTo: "#", text: "Weight Loss" },
+            { linkTo: "#", text: "Strength Gain" },
+            { linkTo: "#", text: "Crossfit" },
+            { linkTo: "#", text: "Washbaord Abs" },
+            { linkTo: "#", text: "Dieting" },
+        ],
+    },
+    reachUs: {
+        reachHeader: "Reach us",
+        socials: [
+            { text: "admin@goodlyfe.co", imgSrc: messageIcon },
+            { text: "+88 98765 43210", imgSrc: callingIcon },
+            {
+                text: "90210 Beverly Hills California USA",
+                imgSrc: locationIcon,
+            },
+        ],
+    },
 };
