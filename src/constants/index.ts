@@ -1,4 +1,10 @@
-import { person1, person2, person3 } from "../assets";
+import {
+    googleButton,
+    appStoreButton,
+    person1,
+    person2,
+    person3,
+} from "../assets";
 
 export const navbar: {
     logo: { text: string; linkTo: string };
@@ -127,4 +133,24 @@ export const realStoriesText: {
             cardPesronImage: person3,
         },
     ],
+};
+
+export const ourAppText: {
+    header: string;
+    mainText: string;
+    links: {
+        linksHeader: string;
+        linksArr: { imgSrc: string; linkTo: string }[];
+    };
+} = {
+    header: "Don’t forget our app",
+    mainText:
+        "Track your workouts and reach your fitness goals faster with our official mobile app. Access customized training plans, log your daily meals, and book gym classes instantly from anywhere.",
+    links: {
+        linksHeader: "Download now:",
+        linksArr: [
+            { linkTo: "#", imgSrc: googleButton },
+            { linkTo: "#", imgSrc: appStoreButton },
+        ],
+    },
 };
